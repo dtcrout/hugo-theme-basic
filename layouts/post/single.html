@@ -57,7 +57,9 @@
 
   </section>
 
-  {{ partial "disqus.html" . }}
+  <article itemprop="articleBody" id="content" class="w-90 lh-copy">
+    {{ partial "disqus.html" . }}
+  </article>
 
   {{ partial "footer.html" . }}
 
