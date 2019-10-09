@@ -29,6 +29,6 @@ code {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+a:not([class="f3 b pa1 black"]) {
   text-decoration: none
 }
